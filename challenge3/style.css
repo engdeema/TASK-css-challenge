@@ -1,11 +1,25 @@
 /* Add your code in each class */
 .container {
+  background-color: crimson;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  width: 250px;
+
+  overflow-y: scroll;
 }
 .head {
+  background-color: darkblue;
+  color: azure;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0px;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  padding-top: 20px;
 }
 
 /* This is a gift - Does not need editing */

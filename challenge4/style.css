@@ -1,16 +1,34 @@
 /* Add your code in each class */
 body {
+  background-color: blueviolet;
 }
-.container {
+/*.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .movie-card {
+  position: relative;
+  text-align: center;
+
+  padding: 20px;
+  margin: 20px;
 }
 .movie-image {
+  width: 150px;
+  height: 150px;
+  position: relative;
 }
 .movie-details-container {
+  display: flex;
+  position: static;
 }
 .descriptions {
-}
+  font-family: Cambria;
+  font-size: x-large;
+  text-align: center;
+*/
 
 /*A gift from us!*/
 .movie-shadow {
@@ -28,4 +46,22 @@ body {
   );
 }
 .movie-title {
+  font-family: Franklin Gothic Medium;
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+}
+
+.movie-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+.movie-details-container {
+  position: relative;
+  text-align: center;
 }
